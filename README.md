@@ -1,4 +1,4 @@
-# Sorting competition (solo)
+ # Sorting competition (solo)
 
 ## Arrays.parallelSort (home):
 Time taken to sort 1b elements:
@@ -13,10 +13,12 @@ Feel free to look at java_src/sort.java to see if I'm being stupid
 
 ## GPU radix sort (home pc):
 100m (10k batch size):
-  ![gpu_sort.png](media/gpu_sort_100m.png)
+
+![gpu_sort.png](media/gpu_sort_100m.png)
 
 1b (20k batch size, not sure why the stats took 30 sec, normally takes <15):
-  ![gpu_sort_1b.png](media/gpu_sort_1b.png)
+
+![gpu_sort_1b.png](media/gpu_sort_1b.png)
 
 To run it, either:
  - Use Cmake (I use CLion with the bundled Cmake) and just build using that
